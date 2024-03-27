@@ -1,0 +1,22 @@
+#inputContainer {
+ margin-bottom: 20px;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ width: 500px;
+}
+
+.label {
+ width: 25%;
+ font-size: larger;
+ font-weight: bolder;
+ text-align: left;
+}
+
+.input {
+ width: 75%;
+ height: 30px;
+ border: none;
+ padding: 10px;
+ border-radius: 5px;
+}
