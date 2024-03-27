@@ -38,13 +38,9 @@ const SignUp = ({ logInTab }) => {
    userDetails.confirm_Password === ""
   ) {
    alert("Provide all fields")
-  }
-
-  if (userDetails.password !== userDetails.confirm_Password) {
+  } else if (userDetails.password !== userDetails.confirm_Password) {
    alert("Password does not match")
-  }
-
-  if (userDetails.password.length < 6) {
+  } else if (userDetails.password.length < 6) {
    alert("Password length is less than 6 characters")
   } else {
    alert("Registration Successful")
